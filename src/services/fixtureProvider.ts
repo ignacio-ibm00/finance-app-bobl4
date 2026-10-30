@@ -10,6 +10,11 @@ const BASE_PRICES: Record<string, number> = {
   ORCL: 175,
   SAP: 245,
   CRM: 300,
+  // Extra symbols so users can pick a company beyond the default set.
+  AAPL: 225,
+  GOOGL: 175,
+  AMZN: 190,
+  NVDA: 130,
 };
 
 const POINTS: Record<TimeRange, { count: number; stepMs: number }> = {
