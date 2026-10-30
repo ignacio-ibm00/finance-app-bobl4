@@ -1,0 +1,17 @@
+{
+  "agents": {},
+  "llms": {},
+  "mcpServers": {
+    "2d1d0d31d45b7e9b25e557274301420120bc9dd0e7dd70951d381bf8c44cc2bd": {
+      "created_at": "2026-10-29T21:46:11.954Z",
+      "file": "Github SDLC Automation/.bob/mcp.json",
+      "id": "2d1d0d31d45b7e9b25e557274301420120bc9dd0e7dd70951d381bf8c44cc2bd",
+      "name": "bob-marketplace",
+      "start_line": 3,
+      "structural_fingerprint": "fc8eedeed85bb52395d4d07b90b2f2822d1bb9ad3e8232b84a5e78b250431ae4",
+      "updated_at": "2026-10-29T21:46:11.954Z",
+      "version": "1.0.0"
+    }
+  },
+  "tools": {}
+}
