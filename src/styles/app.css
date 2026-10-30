@@ -27,3 +27,12 @@ body { margin: 0; }
 .state-loading { background: #edf5ff; }
 .state-error { background: #fff1f1; color: #a2191f; }
 .state-warning { background: #fcf4d6; color: #684e00; }
+
+.symbol-picker { margin: 24px 0 16px; }
+.symbol-picker label { display: block; font-weight: 600; margin-bottom: 6px; }
+.symbol-picker-row { display: flex; gap: 8px; }
+.symbol-picker input { padding: 8px 12px; border: 1px solid #c6c6c6; border-radius: 4px; min-width: 200px; }
+.symbol-picker input[aria-invalid='true'] { border-color: #da1e28; }
+.symbol-picker button { padding: 8px 16px; border: 1px solid #c6c6c6; background: #fff; cursor: pointer; border-radius: 4px; }
+.symbol-picker button[type='submit'] { background: #0f62fe; border-color: #0f62fe; color: #fff; }
+.field-error { color: #a2191f; margin: 6px 0 0; }

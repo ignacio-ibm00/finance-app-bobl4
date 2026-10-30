@@ -20,6 +20,11 @@ describe('fixtureProvider', () => {
     expect(ibm.ok && ibm.data.points).toHaveLength(count);
   });
 
+  it.each(['AAPL', 'GOOGL', 'AMZN', 'NVDA'])('supports extra symbol %s', async (symbol) => {
+    const [result] = await provider.getSeries([{ symbol, name: symbol }], '7d');
+    expect(result.ok).toBe(true);
+  });
+
   it('is deterministic', async () => {
     const a = await provider.getSeries(DEFAULT_COMPANIES, '7d');
     const b = await provider.getSeries(DEFAULT_COMPANIES, '7d');
